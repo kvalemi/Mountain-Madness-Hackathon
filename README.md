@@ -36,6 +36,7 @@ For each of these three interfaces, the application will take as input an image(
 See below for a system design diagram:
 
 <br />
+<br />
 
 ![](/Diagram/System%20Design.jpg)
 
@@ -70,33 +71,43 @@ Some more graphical examples of single image processing. Take a look at `./Noteb
 ![](/Examples/1.png)
 
 <br />
+<br />
+
 
 **Louis (medium classification):**
 
 <br />
+<br />
+
 
 ![](/Examples/2.png)
 
+<br />
 <br />
 
 **Louis (hard classification):**
 
 <br />
+<br />
 
 ![](/Examples/3.png)
 
+<br />
 <br />
 
 **Not Louis (easy classification):**
 
 <br />
+<br />
 
 ![](/Examples/4.png)
 
 <br />
+<br />
 
 **Not Louis (medium classification):**
 
+<br />
 <br />
 
 ![](/Examples/5.png)
@@ -106,9 +117,11 @@ Some more graphical examples of single image processing. Take a look at `./Noteb
 **Not Louis (hard classification):**
 
 <br />
+<br />
 
 ![](/Examples/6.png)
 
+<br />
 <br />
 
 2) **Demo of batch image processing:** Run the following commands to classify a batch of images.
@@ -120,9 +133,11 @@ Some more graphical examples of single image processing. Take a look at `./Noteb
 - When prompted input the directory of the batch of images, like `./Dataset/Test`
 
 <br />
+<br />
 
 ![](/Demo%20Files/Batch%20Demo.png)
 
+<br />
 <br />
 
 3) **Demo of live feed processing**: I don't have a fast enough computer to do real-time image processing and classification. If you do, feel free to try it out. You might have to play around with your system settings a bit to ensure that either terminal or python has permissions to access your webcam.
