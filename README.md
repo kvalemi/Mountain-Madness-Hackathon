@@ -33,10 +33,52 @@ For each of these three interfaces, the application will run the framed images t
 
 ## Project Demo
 
-1) Single Image Processing:
+1) Demo of single image processing. Run the following commands to classify single images:
+
+- In terminal type `Python3 Louis_Locator.py`
+
+- When prompted input 0
+
+- When prompted input the directory of the image, like `./Dataset/Test/test_image.jpeg`
+
+![](/Demo%20Files/Single%20Image%20Demo.png)
+
+Some more graphical examples of test images:
+
+Louis (easy classification)
+[](/Examples/1.png)
+
+Louis (medium classification)
+[](/Examples/2.png)
+
+Louis (hard classification)
+[](/Examples/3.png)
+
+Not Louis (easy classification)
+[](/Examples/4.png)
+
+Not Louis (medium classification)
+[](/Examples/5.png)
+
+Not Louis (hard classification)
+[](/Examples/6.png)
 
 
+2) Demo of batch image processing. Run the following commands to classify single images:
 
+- In terminal type `Python3 Louis_Locator.py`
+
+- When prompted input 1
+
+- When prompted input the directory of the image, like `./Dataset/Test`
+
+[](/Demo%20Files/Batch%20Demo.png)
+
+
+3) Demo of live feed processing. I don't have a fast enough computer to do real-time image processing and classification. If you do, feel free to try it out. You might have to tweak with your system settings a bit to ensure that either terminal or python has permissions to access your webcam.
+
+
+#
 
 
 
