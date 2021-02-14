@@ -57,6 +57,7 @@ See below for a system design diagram:
 <br />
 
 Some more graphical examples of single image processing:
+
 (note: Take a look at `./Notebooks/Testing Notebook.ipynb` to see the testing code)
 
 **Louis (easy classification):**
@@ -150,10 +151,12 @@ This project can easily be extrapolated to do binary classification on any dog w
 
 
 2) Import pictures of your dog, from all angles into `./Dataset/(your dogs name)`
+
 (I recommend 200 pictures for a good classifier)
 
 
 3) Import pictures of other dogs into `./Dataset/Not_(your dogs name)` 
+
 (you can images from a dataset called _Stanford Dog Images Dataset_)
 
 
