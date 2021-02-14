@@ -33,6 +33,8 @@ For each of these three interfaces, the application will run the framed images t
 
 ## Project Demo
 
+1) Single Image Processing:
+
 
 
 
