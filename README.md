@@ -12,5 +12,29 @@ This technology is purely engineered by big government to track HUMANS. But, wha
 
 **Louis Locator** is a prototype identification system used to identify dogs from static images, batch image containers, and live feeds from security/spy cameras. Given that I only had 24 hours to engineer this system, I only made it a binary classifier, where it can identify if my own dog, named Louis, is seen in an image, a batch container of images, or a live feed.
 
+
 ## Project Description
+
+The hear of this project is the deep learning model I trained to be able to do classification on framed images. This model does binary classification on the following two labels: "Louis" and "Not Louis". The label "Louis" corresponds to my dog "Louis" being in the framed image, and "Not Louis" corresponds to my dog Louis not being in the picture.
+
+The deep learning model I used is a pre-structured Keras Convolutional Neural Network called MobileNet V2. This is a lightweight CNN that efficiently trains on smaller training datasets, and does not require lots of computational power. I trained this model on about 400 pictures split evenly between pictures of my dog, which I took, and pictures of dogs that I obtained from Kaggle.
+
+After I trained the model, I then built a fairly intuitive interface, where a user can interact with **Louis Locator** in three ways:
+
+1) Single Image Processing: Try and locate Louis in a single image.
+
+2) Batch Image Processing: Try and locate Louis in a batch of images stored in a local directory.
+
+3) Live Feed Processing: In real-time, try and see if Louis is in the frame as inputted by the security camera hooked up to the system.
+
+For each of these three interfaces, the application will run the framed images through the CNN model and come up with a result. The result is simply printed out to terminal. See below for a system design diagram:
+
+![](/Diagram/System%20Design.jpg)
+
+## Project Demo
+
+
+
+
+
 
