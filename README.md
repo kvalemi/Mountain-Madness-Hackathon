@@ -1,10 +1,10 @@
 ## Project Theme
 
-Name: **Louis Locator**
+### Name: **Louis Locator**
 
-Author: Kaveh Alemi
+### Author: Kaveh Alemi
 
-Theme:
+### Theme:
 
 In the book "_Nineteen Eighty-Four: A Novel_" by George Orwell, there is a large emphasis on big government spying on it's citizens. One of the technologies this government uses is spy cameras that identify and track people. 
 
@@ -29,6 +29,8 @@ After I trained the model, I then built a fairly intuitive interface, where a us
 
 3) Live Feed Processing: In real-time, try and see if Louis is in the frame as inputted by the security camera hooked up to the system.
 
+<br />
+
 For each of these three interfaces, the application will run the framed images through the CNN model and come up with a result. The result is simply printed out to terminal. See below for a system design diagram:
 
 ![](/Diagram/System%20Design.jpg)
@@ -44,45 +46,53 @@ For each of these three interfaces, the application will run the framed images t
 
 - When prompted input 0
 
-- When prompted input the directory of the image, like `./Dataset/Test/test_image.jpeg`
+- When prompted input the directory of the image, like `./Dataset/Test/Easy_Louis.jpeg`
 
-
+<br />
 
 ![](/Demo%20Files/Single%20Image%20Demo.png)
 
+<br />
 
 Some more graphical examples of test images:
+
+- Take a look at `./Notebooks/Testing Notebook.ipynb` to see how I tested each image
 
 **Louis (easy classification):**
 
 ![](/Examples/1.png)
 
+<br />
 
 **Louis (medium classification):**
 
 ![](/Examples/2.png)
 
+<br />
 
 **Louis (hard classification):**
 
 ![](/Examples/3.png)
 
+<br />
 
 **Not Louis (easy classification):**
 
 ![](/Examples/4.png)
 
+<br />
 
 **Not Louis (medium classification):**
 
 ![](/Examples/5.png)
 
+<br />
 
 **Not Louis (hard classification):**
 
 ![](/Examples/6.png)
 
-
+<br />
 
 2) **Demo of batch image processing:** Run the following commands to classify single images.
 
@@ -92,11 +102,11 @@ Some more graphical examples of test images:
 
 - When prompted input the directory of the image, like `./Dataset/Test`
 
-
+<br />
 
 ![](/Demo%20Files/Batch%20Demo.png)
 
-
+<br />
 
 3) **Demo of live feed processing**: I don't have a fast enough computer to do real-time image processing and classification. If you do, feel free to try it out. You might have to tweak with your system settings a bit to ensure that either terminal or python has permissions to access your webcam.
 
@@ -127,7 +137,27 @@ Some more graphical examples of test images:
 
 ## Project Extras
 
-This project can actually be extrapolated to do binary classification on any dog with very some very minor changes.
+This project can easily be extrapolated to do binary classification on any dog with very some very minor changes. Follow these steps:
+
+<br />
+
+1) Change the following directory names:
+
+- `./Dataset/Louis` --> `./Dataset/(your dogs name)`
+
+- `./Dataset/Not_Louis` --> `./Dataset/Not_(your dogs name)`
+
+
+2) Import pictures of your dog, from all angles into `./Dataset/(your dogs name)`
+
+
+3) Import pictures of other dogs into `./Dataset/Not_(your dogs name)` 
+
+- you can images from a dataset called _Stanford Dog Images Dataset_
+
+4) Run the following training script: `training_script.py`
+
+5) In the source code of `Louis_Locator.py` change any reference from Louis to your dogs name, so that the applications output is labelled correctly
 
 
 
