@@ -35,6 +35,8 @@ For each of these three interfaces, the application will take as input an image(
 
 See below for a system design diagram:
 
+<br />
+
 ![](/Diagram/System%20Design.jpg)
 
 <br />
@@ -44,21 +46,24 @@ See below for a system design diagram:
 
 1) **Demo of single image processing:** Run the following commands to classify a single image as containing Louis or not.
 
-- In terminal type `Python3 Louis_Locator.py`
+- In terminal type `Python3 Louis_Locator.py`.
 
-- When prompted input 0
+- When prompted input 0.
 
-- When prompted input the directory of the image, like `./Dataset/Test/Easy_Louis.jpeg`
+- When prompted input the directory of the image, like `./Dataset/Test/Easy_Louis.jpeg`.
 
+<br />
 <br />
 
 ![](/Demo%20Files/Single%20Image%20Demo.png)
 
 <br />
+<br />
 
-Some more graphical examples of single image processing:
+Some more graphical examples of single image processing. Take a look at `./Notebooks/Testing Notebook.ipynb` to see the code used for testing the model.
 
-(note: Take a look at `./Notebooks/Testing Notebook.ipynb` to see the testing code)
+<br />
+<br />
 
 **Louis (easy classification):**
 
@@ -68,11 +73,15 @@ Some more graphical examples of single image processing:
 
 **Louis (medium classification):**
 
+<br />
+
 ![](/Examples/2.png)
 
 <br />
 
 **Louis (hard classification):**
+
+<br />
 
 ![](/Examples/3.png)
 
@@ -80,17 +89,23 @@ Some more graphical examples of single image processing:
 
 **Not Louis (easy classification):**
 
+<br />
+
 ![](/Examples/4.png)
 
 <br />
 
 **Not Louis (medium classification):**
 
+<br />
+
 ![](/Examples/5.png)
 
 <br />
 
 **Not Louis (hard classification):**
+
+<br />
 
 ![](/Examples/6.png)
 
@@ -117,7 +132,7 @@ Some more graphical examples of single image processing:
 
 # How to Build the Project:
 
-1) Install Python 3
+1) Install Python 3.
 
 2) Install the following Python dependancies with a package manager (e.g. pip or anaconda):
 
@@ -129,9 +144,9 @@ Some more graphical examples of single image processing:
   - os
   - numpy
 
-3) Run the following command in a terminal in your local directory: `Python3 Louis_Locater.py`
+3) Run the following command in a terminal in your local directory: `Python3 Louis_Locater.py`.
 
-4) Follow walkthrough from demo to interact with the app. Use test images in `./Dataset/Test` to play around witht he application.
+4) Follow walkthrough from demo to interact with the app. Use test images in `./Dataset/Test` to play around with the application.
 
 <br />
 <br />
@@ -150,20 +165,16 @@ This project can easily be extrapolated to do binary classification on any dog w
 - `./Dataset/Not_Louis` --> `./Dataset/Not_(your dogs name)`
 
 
-2) Import pictures of your dog, from all angles into `./Dataset/(your dogs name)`
-
-(I recommend 200 pictures for a good classifier)
+2) Import about 200 pictures of your dog, from all angles into `./Dataset/(your dogs name)`.
 
 
-3) Import pictures of other dogs into `./Dataset/Not_(your dogs name)` 
-
-(you can images from a dataset called _Stanford Dog Images Dataset_)
+3) Import pictures of other dogs into `./Dataset/Not_(your dogs name)`, you can images from a dataset called _Stanford Dog Images Dataset_.
 
 
-4) Run the following training script to automatically train the classifier: `training_script.py`
+4) Run the following training script to automatically train the classifier: `training_script.py`.
 
 
-5) In the source code of `Louis_Locator.py` change any reference from "Louis" to your dogs name, so that the applications outputs the correct label
+5) In the source code of `Louis_Locator.py` change any reference from "Louis" to your dogs name, so that the applications outputs the correct label.
 
 
 
