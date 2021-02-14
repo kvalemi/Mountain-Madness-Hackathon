@@ -51,22 +51,33 @@ For each of these three interfaces, the application will run the framed images t
 
 Some more graphical examples of test images:
 
-Louis (easy classification)
+**Louis (easy classification):**
+
 ![](/Examples/1.png)
 
-Louis (medium classification)
+
+**Louis (medium classification):**
+
 ![](/Examples/2.png)
 
-Louis (hard classification)
+
+**Louis (hard classification):**
+
 ![](/Examples/3.png)
 
-Not Louis (easy classification)
+
+**Not Louis (easy classification):**
+
 ![](/Examples/4.png)
 
-Not Louis (medium classification)
+
+**Not Louis (medium classification):**
+
 ![](/Examples/5.png)
 
-Not Louis (hard classification)
+
+**Not Louis (hard classification):**
+
 ![](/Examples/6.png)
 
 
