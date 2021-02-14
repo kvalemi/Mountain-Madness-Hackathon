@@ -12,7 +12,8 @@ This technology is purely engineered by big government to track HUMANS. But, wha
 
 **Louis Locator** is a prototype identification system used to identify dogs from static images, batch image containers, and live feeds from security/spy cameras. Given that I only had 24 hours to engineer this system, I only made it a binary classifier, where it can identify if my own dog, named Louis, is seen in an image, a batch container of images, or a live feed.
 
-
+<br />
+<br />
 
 ## Project Description
 
@@ -32,7 +33,8 @@ For each of these three interfaces, the application will run the framed images t
 
 ![](/Diagram/System%20Design.jpg)
 
-
+<br />
+<br />
 
 ## Project Demo
 
@@ -98,10 +100,12 @@ Some more graphical examples of test images:
 
 3) **Demo of live feed processing**: I don't have a fast enough computer to do real-time image processing and classification. If you do, feel free to try it out. You might have to tweak with your system settings a bit to ensure that either terminal or python has permissions to access your webcam.
 
+<br />
+<br />
 
 ## How to Build the Project:
 
-1) Install (Python 3)[https://www.python.org/download/releases/3.0/]
+1) Install (Python 3)
 
 2) Install the following Python dependancies with a package manager:
 
@@ -117,11 +121,13 @@ Some more graphical examples of test images:
 
 4) Follow walkthrough from demo to interact with the app
 
+<br />
+<br />
 
 
 ## Project Extras
 
-1) 
+This project can actually be extrapolated to do binary classification on any dog with very some very minor changes.
 
 
 
